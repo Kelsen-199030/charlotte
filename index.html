@@ -4,8 +4,8 @@
   <meta name="google-site-verification" content="ZLOzuAQIpPyh667tu1UhDuGgrOaTeY_mI9WE-jFK-7A" />
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>夏綠蒂娛樂經紀｜台中傳播經紀首選</title>
-<meta name="description" content="台中夏綠蒂娛樂經紀，專業對接台中錢櫃、超級巨星、星樂匯、商務酒店及各大招待所。提供頂級傳播服務、飯局預約與公關職缺應徵。24H 全方位服務，為您規劃台中最私密奢華的夜生活行程。">
+<title>台中傳播經紀首選｜夏綠蒂娛樂：台中各大KTV、招待所、叫小姐、飯局、傳播</title>
+<meta name="description" content="台中夏綠蒂娛樂經紀，專業對接台中錢櫃、超級巨星、星樂匯及各大招待所。提供頂級傳播服務、飯局預約與公關職缺應徵。24H 全方位服務，為您規劃台中最私密奢華的夜生活行程。">
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Noto+Serif+TC:wght@300;400;500&family=Cinzel:wght@400;600&display=swap" rel="stylesheet">
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
@@ -277,6 +277,77 @@ body::after{content:'';position:fixed;inset:0;pointer-events:none;z-index:998;
   background: rgba(255,255,255,0.5);
   flex-shrink: 0;
 }
+/* ── FAQ ACCORDION ── */
+.faq-block { margin-top: 2.5rem; }
+.faq-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: var(--gold);
+  margin-bottom: 1.2rem;
+  padding-bottom: .6rem;
+  border-bottom: 1px solid var(--gold-l);
+  letter-spacing: .05em;
+}
+.faq-item {
+  border-bottom: 1px solid var(--gold-l);
+  overflow: hidden;
+}
+.faq-q {
+  width: 100%;
+  background: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0;
+  cursor: pointer;
+  text-align: left;
+  gap: 1rem;
+}
+.faq-q-text {
+  font-family: 'Noto Serif TC', serif;
+  font-size: .85rem;
+  color: var(--pearl);
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: .04em;
+}
+.faq-icon {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  border: 1px solid var(--gold-l);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform .3s, background .3s;
+}
+.faq-icon svg {
+  width: 10px;
+  height: 10px;
+  stroke: var(--gold);
+  transition: transform .3s;
+}
+.faq-item.open .faq-icon {
+  background: var(--gold-l);
+}
+.faq-item.open .faq-icon svg {
+  transform: rotate(180deg);
+}
+.faq-a {
+  max-height: none;
+  overflow: visible;
+}
+.faq-a-inner {
+  font-size: .82rem;
+  color: var(--pearl-d);
+  line-height: 1.85;
+  letter-spacing: .03em;
+  font-weight: 400;
+  padding: 0 0 1.2rem 0;
+}
 </style>
 </head>
 <body>
@@ -486,6 +557,39 @@ body::after{content:'';position:fixed;inset:0;pointer-events:none;z-index:998;
     <p class="reveal d1" style="font-size:.82rem;color:var(--pearl-d);line-height:2;letter-spacing:.05em">請於消費前詳閱以下條款，以確保雙方權益與美好體驗。</p>
   </div>
   <div class="sec" style="padding-top:0">
+    <!-- FAQ 區塊 -->
+<div class="faq-block reveal">
+  <div class="faq-title">【台中夜生活攻略】新手如何挑選優質娛樂服務？常見問答集</div>
+
+  <div class="faq-item">
+    <button class="faq-q" onclick="toggleFaq(this)">
+      <span class="faq-q-text">Q1：在台中想要「叫傳播」或「叫小姐」陪同唱歌，該如何確保安全與素質？</span>
+      <span class="faq-icon">
+        <svg viewBox="0 0 12 12" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="2 4 6 8 10 4"/>
+        </svg>
+      </span>
+    </button>
+    <div class="faq-a">
+      <div class="faq-a-inner">A1：選擇具備專業信譽的「夏綠蒂娛樂」是您的首選。台中的 KTV（如：超級巨星、享溫馨、凱悅等）選擇眾多，我們提供專業的台中傳播服務，每一位公關皆經過嚴格面試。如果您追求更高層次的互動，我們的台中飯局妹與精品招待所方案，能根據您的商務需求或私人派對進行精準配對。</div>
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <button class="faq-q" onclick="toggleFaq(this)">
+      <span class="faq-q-text">Q2：台中飯局與一般傳播的「價格行情」大約是多少？</span>
+      <span class="faq-icon">
+        <svg viewBox="0 0 12 12" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="2 4 6 8 10 4"/>
+        </svg>
+      </span>
+    </button>
+    <div class="faq-a">
+      <div class="faq-a-inner">A2：價格通常依據服務層級有所不同。一般的高傳（高級傳播）為$1,800/節/小時，一次消費兩節計費，適合好友聚會；而台中飯局則適合商務應酬，通常以「小局」$10,000或「大局」$12,000為4節/小時計費。夏綠蒂提供透明的台中叫小姐價格查詢，確保客戶每一分預算都能換取最高素質的陪伴，絕無隱藏費用。</div>
+    </div>
+  </div>
+
+</div>
     <div class="terms-block reveal">
       <h3>💰 金流規範</h3>
       <ul>
@@ -716,6 +820,48 @@ body::after{content:'';position:fixed;inset:0;pointer-events:none;z-index:998;
       <div class="sb-s">可試做 · 彈性排班 · 妝髮服務 · 享員工餐</div>
       <div style="font-size:.68rem;color:var(--pearl-dd);margin-top:.4rem;letter-spacing:.08em">（各大酒店、理K部門）</div>
     </div>
+    <div class="faq-block reveal">
+      <div class="faq-title">【加入夏綠蒂】台中八大行業求職：妳最想知道的上班內幕與福利</div>
+
+      <div class="faq-item">
+        <div class="faq-q">
+          <span class="faq-q-text">Q1：沒有經驗可以應徵「台中酒店」、「傳播」「飯局妹」嗎？</span>
+        </div>
+        <div class="faq-a">
+          <div class="faq-a-inner">A1：當然可以！夏綠蒂娛樂長期招募對生活有目標的女孩。不論妳想找的是台中傳播小姐、飯局公關或是商務酒店的職缺，我們都提供一對一專業培訓。即使妳從未接觸過八大行業，我們會教妳如何優雅地應對商務客、提升談吐與儀態，讓妳在安全的環境下快速累積財富。</div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q">
+          <span class="faq-q-text">Q2：在台中從事娛樂公關，真的能保障安全且「彈性領薪」嗎？</span>
+        </div>
+        <div class="faq-a">
+          <div class="faq-a-inner">A2：這是夏綠蒂的承諾。我們提供當日(傳播、飯局)及檔薪(商務酒店)制度，讓妳的努力立即兌現。針對台中小姐職缺，我們備有專車接送與宿舍安排，確保每一位姐妹的出勤安全。在夏綠蒂，不只是工作，我們更在乎妳的成長，歡迎私訊了解更多關於台中酒店打工與伴遊職缺的詳細內容，開啟妳的財務自由之路。</div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q">
+          <span class="faq-q-text">Q3：住外縣市可以來上班嗎？</span>
+        </div>
+        <div class="faq-a">
+          <div class="faq-a-inner">A3：當然可以！夏綠蒂娛樂歡迎來自各地的女孩加入我們的團隊。無論妳住在台中或其它縣市，我們都提供便捷的交通安排與支持，讓妳能夠輕鬆投入工作，實現財務自由。</div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q">
+          <span class="faq-q-text">Q4：已經有經紀公司，但上的不好或不愉快想換可以嗎？</span>
+        </div>
+        <div class="faq-a">
+          <div class="faq-a-inner">A4：當然可以！夏綠蒂娛樂經紀公司提供汰換經紀及完整的教育訓練管道，讓妳能夠順利轉換環境，並找到輕鬆上班的方法，尋找更適合自己的發展機會。</div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
  
     <p class="sec-eye reveal">WHY US</p>
     <h2 class="sec-h reveal" style="margin-bottom:1.6rem">加入我們的理由</h2>
@@ -1067,6 +1213,14 @@ function scrollToFooter(pid){
 }
 if(document.getElementById('vgrid'))renderVenues();
 setTimeout(initReveal,200);
+function toggleFaq(btn) {
+  const item = btn.closest('.faq-item');
+  const isOpen = item.classList.contains('open');
+  // 關閉所有已開啟的
+  document.querySelectorAll('.faq-item.open').forEach(el => el.classList.remove('open'));
+  // 如果原本是關閉的就打開
+  if (!isOpen) item.classList.add('open');
+}
 </script>
 <!-- 年齡確認彈窗 -->
 <div id="age-gate" style="
