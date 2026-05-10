@@ -29,7 +29,7 @@ body::after{content:'';position:fixed;inset:0;pointer-events:none;z-index:998;
 .hbg.open span:nth-child(3){transform:rotate(-45deg) translate(4px,-4px)}
 #mmenu{position:fixed;inset:0;background:rgba(10,10,10,.97);z-index:490;display:none;flex-direction:column;align-items:center;justify-content:center;gap:2rem}
 #mmenu.open{display:flex;animation:fadeIn .3s ease}
-#mmenu a{font-family:'Cinzel',serif;font-size:1.15rem;letter-spacing:.25em;color:var(--pearl-d);text-decoration:none;transition:color .3s;padding:.4rem 0}
+#mmenu a{font-family:'Cinzel',serif;font-size:1.15rem;letter-spacing:.25em;color:var(--pearl-d);text-decoration:none;transition:color .3s;padding:.4rem 0;text-align:center}
 #mmenu a:hover,#mmenu a.active{color:var(--gold)}
 #mmenu .m-line{width:40px;height:1px;background:var(--gold-l);margin:.3rem 0}
 body{padding-top:58px}
@@ -150,12 +150,12 @@ body{padding-top:58px}
   <div class="hbg" id="hbg" onclick="toggleMenu()"><span></span><span></span><span></span></div>
 </header>
 <nav id="mmenu">
-  <a href="index.html">首頁</a>
+  <a href="index.html">首頁<span style="display:block;font-size:.45rem;letter-spacing:.3em;color:var(--pearl-dd);margin-top:.2rem">HOME</span></a>
   <div class="m-line"></div>
-  <a href="about.html">公司簡介</a>
-  <a href="terms.html">消費須知</a>
-  <a href="pricing.html">消費介紹</a>
-  <a href="recruit.html">招募職缺</a>
+  <a href="about.html">公司簡介<span style="display:block;font-size:.45rem;letter-spacing:.3em;color:var(--pearl-dd);margin-top:.2rem">ABOUT US</span></a>
+  <a href="terms.html">消費須知<span style="display:block;font-size:.45rem;letter-spacing:.3em;color:var(--pearl-dd);margin-top:.2rem">TERMS</span></a>
+  <a href="pricing.html">消費介紹<span style="display:block;font-size:.45rem;letter-spacing:.3em;color:var(--pearl-dd);margin-top:.2rem">PRICING</span></a>
+  <a href="recruit.html">招募職缺<span style="display:block;font-size:.45rem;letter-spacing:.3em;color:var(--pearl-dd);margin-top:.2rem">JOIN US</span></a>
 </nav>
 
 <style>
