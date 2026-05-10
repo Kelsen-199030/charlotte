@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kelsen-199030.github.io/charlotte/sitemap.xml
