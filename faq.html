@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>問與答 FAQ｜台中夏綠蒂娛樂經紀</title>
+  <meta name="description" content="夏綠蒂娛樂經紀應徵專區完整FAQ，解答新手入行、安全保障、薪資制度、海外福利等常見問題。">
+  <link rel="canonical" href="https://kelsen-199030.github.io/charlotte/faq.html">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Noto+Serif+TC:wght@300;400;500&family=Cinzel:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --gold:#E5D3B3;--gold-l:rgba(229,211,179,0.2);--gold-d:rgba(229,211,179,0.08);
+  --emerald:#043927;--emerald-m:#065f46;
+  --bg:#0A0A0A;--pearl:#FDFDFD;--pearl-d:rgba(253,253,253,0.6);--pearl-dd:rgba(253,253,253,0.35);
+}
+html,body{height:100%;background:var(--bg);color:var(--pearl);font-family:'Noto Serif TC',serif;overflow-x:hidden}
+body::after{content:'';position:fixed;inset:0;pointer-events:none;z-index:998;
+  background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");opacity:.5}
+#hdr{position:fixed;top:0;left:0;right:0;z-index:500;padding:.9rem 1.4rem;display:flex;align-items:center;justify-content:space-between;transition:background .4s,border .4s}
+#hdr.scrolled{background:rgba(10,10,10,.95);backdrop-filter:blur(16px);border-bottom:1px solid var(--gold-l)}
+.brand{font-family:'Cinzel',serif;font-size:.9rem;letter-spacing:.2em;color:var(--gold);line-height:1.3;text-decoration:none;display:block}
+.brand small{display:block;font-family:'Noto Serif TC',serif;font-size:.52rem;letter-spacing:.3em;color:var(--pearl-dd);margin-top:2px}
+.hbg{display:flex;flex-direction:column;gap:5px;cursor:pointer;padding:6px}
+.hbg span{width:24px;height:1px;background:var(--gold);transition:all .3s;display:block}
+.hbg.open span:nth-child(1){transform:rotate(45deg) translate(4px,4px)}
+.hbg.open span:nth-child(2){opacity:0}
+.hbg.open span:nth-child(3){transform:rotate(-45deg) translate(4px,-4px)}
+#mmenu{position:fixed;inset:0;background:rgba(10,10,10,.97);z-index:490;display:none;flex-direction:column;align-items:center;justify-content:center;gap:2rem}
+#mmenu.open{display:flex;animation:fadeIn .3s ease}
+#mmenu a{font-family:'Cinzel',serif;font-size:1.15rem;letter-spacing:.25em;color:var(--pearl-d);text-decoration:none;transition:color .3s;padding:.4rem 0;text-align:center}
+#mmenu a:hover,#mmenu a.active{color:var(--gold)}
+#mmenu .m-line{width:40px;height:1px;background:var(--gold-l);margin:.3rem 0}
+body{padding-top:58px}
+.sec{padding:4.5rem 1.6rem}
+.sec-eye{font-family:'Cinzel',serif;font-size:.55rem;letter-spacing:.5em;color:var(--gold);margin-bottom:.7rem}
+.sec-h{font-family:'Cormorant Garamond',serif;font-size:clamp(2rem,6vw,2.8rem);font-weight:600;color:var(--pearl);line-height:1.1;margin-bottom:1.2rem}
+.gdiv{width:50px;height:1px;background:linear-gradient(to right,transparent,var(--gold),transparent);margin:1.2rem auto}
+.reveal{opacity:0;transform:translateY(24px);transition:opacity .7s ease,transform .7s ease}
+.reveal.vis{opacity:1;transform:translateY(0)}
+.reveal.d1{transition-delay:.12s}.reveal.d2{transition-delay:.24s}.reveal.d3{transition-delay:.36s}
+/* FAQ Hero */
+.faq-hero{background:linear-gradient(135deg,rgba(4,57,39,.55) 0%,rgba(10,10,10,1) 65%);padding:2.5rem 1.6rem;text-align:center}
+.faq-hero h2{font-family:'Cormorant Garamond',serif;font-size:clamp(2.2rem,7vw,3.2rem);font-weight:300;color:var(--pearl);line-height:1.1;margin-bottom:1rem;animation:fadeUp .8s .3s both}
+.faq-hero h2 em{color:var(--gold);font-style:italic}
+.faq-hero p{font-size:.85rem;color:var(--pearl-d);line-height:1.7;letter-spacing:.05em;animation:fadeUp .8s .6s both;font-weight:400}
+/* Diamond badge */
+.diamond-badge{display:inline-block;font-family:'Cinzel',serif;font-size:.55rem;letter-spacing:.25em;color:var(--gold);border:1px solid var(--gold-l);padding:.35rem 1.1rem;margin-bottom:1.4rem;animation:fadeUp .8s .1s both}
+/* FAQ sections */
+.faq-chapter{margin-bottom:3rem}
+.faq-chapter-title{font-family:'Cormorant Garamond',serif;font-size:1.25rem;font-weight:600;color:var(--gold);margin-bottom:1.4rem;padding:.7rem 1rem;border-left:3px solid var(--gold);background:rgba(229,211,179,.04);letter-spacing:.05em}
+.faq-chapter-title span{display:block;font-family:'Cinzel',serif;font-size:.48rem;letter-spacing:.35em;color:var(--pearl-dd);margin-top:.3rem;font-weight:400}
+.faq-item{border-bottom:1px solid var(--gold-l);overflow:hidden}
+.faq-q{width:100%;background:transparent;border:none;display:flex;align-items:center;justify-content:space-between;padding:1.1rem 0;cursor:pointer;text-align:left;gap:1rem}
+.faq-q-text{font-family:'Noto Serif TC',serif;font-size:.85rem;color:var(--pearl);font-weight:400;line-height:1.6;letter-spacing:.04em}
+.faq-icon{width:20px;height:20px;flex-shrink:0;border:1px solid var(--gold-l);border-radius:50%;display:flex;align-items:center;justify-content:center;transition:transform .3s,background .3s}
+.faq-icon svg{width:10px;height:10px;stroke:var(--gold);transition:transform .3s}
+.faq-item.open .faq-icon{background:var(--gold-l)}
+.faq-item.open .faq-icon svg{transform:rotate(180deg)}
+.faq-a{max-height:0;overflow:hidden;transition:max-height .4s ease}
+.faq-item.open .faq-a{max-height:600px}
+.faq-a-inner{font-size:.82rem;color:var(--pearl-d);line-height:1.9;letter-spacing:.03em;font-weight:400;padding:.2rem 0 1.4rem 0}
+.faq-a-inner strong{color:var(--gold);font-weight:400}
+/* Contact footer */
+.cf{background:rgba(4,57,39,.06);border-top:1px solid var(--gold-l);padding:2.2rem 1.6rem;margin-top:1rem}
+.cf-title{font-family:'Cinzel',serif;font-size:.6rem;letter-spacing:.4em;color:var(--gold);text-align:center;margin-bottom:1.8rem}
+.cf-cards{display:flex;flex-direction:column;gap:.75rem}
+.cf-card{border:1px solid rgba(229,211,179,.2);padding:1.1rem 1.2rem;background:rgba(10,10,10,.5);display:flex;align-items:center;gap:1rem;transition:border-color .3s;height:74px;box-sizing:border-box}
+.cf-card:hover{border-color:rgba(229,211,179,.4)}
+.cf-ico{width:42px;height:42px;flex-shrink:0}
+.cf-l{flex:1;min-width:0}
+.cf-type{font-family:'Cinzel',serif;font-size:.52rem;letter-spacing:.28em;color:var(--gold);margin-bottom:.22rem;opacity:.8}
+.cf-id{font-family:'Cormorant Garamond',serif;font-size:1.05rem;color:var(--pearl);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.cf-cbtn{font-family:'Cinzel',serif;font-size:.55rem;letter-spacing:.1em;padding:0;border:1px solid var(--gold);color:var(--gold);background:transparent;cursor:pointer;transition:all .3s;text-decoration:none;white-space:nowrap;display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;width:90px;height:36px;text-align:center}
+.cf-cbtn:hover{background:var(--gold);color:var(--bg)}
+.cf-cbtn.green{background:transparent;border-color:var(--gold);color:var(--gold)}
+.cf-cbtn.green:hover{background:var(--gold);color:var(--bg)}
+.copy-msg{font-size:.66rem;color:var(--gold);height:1.2em;margin-top:.3rem;opacity:0;transition:opacity .3s}
+.copy-msg.show{opacity:1}
+.footer-copy{text-align:center;font-size:.66rem;color:var(--pearl-dd);letter-spacing:.08em;line-height:2.1;margin-top:1.6rem;padding-top:1.5rem;border-top:1px solid rgba(229,211,179,.08)}
+/* Float buttons */
+#float-btns{position:fixed;bottom:1.6rem;right:1.3rem;z-index:600;display:flex;flex-direction:column;gap:.6rem;align-items:center}
+.fb{width:52px;height:52px;border-radius:50%;display:flex;align-items:center;justify-content:center;text-decoration:none;cursor:pointer;border:none;transition:transform .3s,box-shadow .3s;animation:fbob 3s ease-in-out infinite;overflow:hidden;padding:0}
+.fb:nth-child(2){animation-delay:.4s}.fb:nth-child(3){animation-delay:.8s}
+.fb:hover{transform:scale(1.12)!important;animation:none}
+.fb-phone{background:rgba(229,211,179,.15);border:1.5px solid var(--gold);box-shadow:0 3px 14px rgba(229,211,179,.2)}
+.fb-line{background:#06C755;box-shadow:0 3px 14px rgba(6,199,85,.45)}
+.fb-wechat{background:#2DC100;box-shadow:0 3px 14px rgba(45,193,0,.45)}
+#back-top{position:fixed;bottom:1.6rem;left:1.3rem;z-index:600;width:52px;height:52px;border-radius:50%;background:rgba(10,10,10,.75);border:1.5px solid var(--gold);box-shadow:0 3px 14px rgba(229,211,179,.15);display:flex;align-items:center;justify-content:center;cursor:pointer;opacity:0;pointer-events:none;transition:opacity .35s,transform .35s;transform:translateY(8px);backdrop-filter:blur(6px)}
+#back-top.show{opacity:1;pointer-events:auto;transform:translateY(0)}
+#back-top:hover{background:rgba(229,211,179,.12)}
+#float-toast{position:fixed;bottom:5.5rem;right:1.3rem;z-index:700;font-family:'Cinzel',serif;font-size:.58rem;letter-spacing:.12em;color:var(--gold);background:rgba(10,10,10,.75);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border:1px solid var(--gold);box-shadow:0 2px 16px rgba(229,211,179,.15);padding:.55rem 1rem;border-radius:2px;opacity:0;transition:opacity .35s;pointer-events:none}
+.glow-line{height:1px;background:linear-gradient(90deg,transparent,var(--gold),transparent);animation:glow 3s ease-in-out infinite}
+@keyframes glow{0%,100%{opacity:.25}50%{opacity:.9}}
+@keyframes fbob{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
+@keyframes fadeUp{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:translateY(0)}}
+@keyframes fadeIn{from{opacity:0}to{opacity:1}}
+@media(min-width:600px){.sec{padding:5rem 2.5rem}.cf-cards{display:grid;grid-template-columns:1fr 1fr 1fr}}
+  </style>
+</head>
+<body>
+
+<header id="hdr">
+  <a class="brand" href="index.html">Charlotte<small>夏綠蒂娛樂經紀公司</small></a>
+  <div class="hbg" id="hbg" onclick="toggleMenu()"><span></span><span></span><span></span></div>
+</header>
+
+<nav id="mmenu">
+  <a href="index.html">首頁<span style="display:block;font-size:.45rem;letter-spacing:.3em;color:var(--pearl-dd);margin-top:.2rem">HOME</span></a>
+  <div class="m-line"></div>
+  <a href="about.html">公司簡介<span style="display:block;font-size:.45rem;letter-spacing:.3em;color:var(--pearl-dd);margin-top:.2rem">ABOUT US</span></a>
+  <a href="terms.html">消費須知<span style="display:block;font-size:.45rem;letter-spacing:.3em;color:var(--pearl-dd);margin-top:.2rem">TERMS</span></a>
+  <a href="pricing.html">消費介紹<span style="display:block;font-size:.45rem;letter-spacing:.3em;color:var(--pearl-dd);margin-top:.2rem">PRICING</span></a>
+  <a href="recruit.html">招募職缺<span style="display:block;font-size:.45rem;letter-spacing:.3em;color:var(--pearl-dd);margin-top:.2rem">JOIN US</span></a>
+  <a href="faq.html">問與答<span style="display:block;font-size:.45rem;letter-spacing:.3em;color:var(--pearl-dd);margin-top:.2rem">FAQ</span></a>
+</nav>
+
+<!-- Hero -->
+<div class="faq-hero">
+  <p class="sec-eye" style="animation:fadeUp .8s .1s both;text-align:center">FAQ</p>
+  <h2>問與答<br><em>全方位細分問答</em></h2>
+  <div class="gdiv" style="animation:fadeUp .8s .5s both"></div>
+  <p style="animation:fadeUp .8s .7s both">妳的每一個疑問，我們都認真回答<br>讓妳在加入夏綠蒂之前，擁有最完整的了解</p>
+</div>
+
+<div class="glow-line"></div>
+
+<!-- FAQ Content -->
+<section class="sec">
+
+  <!-- 一、入行與環境 -->
+  <div class="faq-chapter reveal">
+    <div class="faq-chapter-title">
+      一、入行與環境
+      <span>Getting Started</span>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-q" onclick="toggleFaq(this)">
+        <span class="faq-q-text">Q1：沒有任何經驗，可以應徵傳播、飯局或酒店公關嗎？</span>
+        <span class="faq-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg></span>
+      </button>
+      <div class="faq-a"><div class="faq-a-inner">
+        絕對可以。夏綠蒂擁有 <strong>15年品牌經營</strong> 的扎實經驗，提供完整的 <strong>一對一專業培訓</strong>，從桌邊禮儀、談吐修辭到儀態維持，手把手帶領妳入門。無經驗在我們這裡代表無限的塑造可能，我們會教妳如何優雅應對商務客、快速累積財富。
+      </div></div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-q" onclick="toggleFaq(this)">
+        <span class="faq-q-text">Q2：夏綠蒂的工作環境單純嗎？</span>
+        <span class="faq-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg></span>
+      </button>
+      <div class="faq-a"><div class="faq-a-inner">
+        夏綠蒂定位高端商務經紀，合作場所均為台中知名合法場所（如錢櫃、超級巨星、星樂匯等）。我們有嚴格的客源過濾機制，確保妳面對的是優質商務客群，<strong>環境單純、受人尊重</strong>。
+      </div></div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-q" onclick="toggleFaq(this)">
+        <span class="faq-q-text">Q3：在台中叫傳播、飯局妹，如何確保安全與素質？</span>
+        <span class="faq-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg></span>
+      </button>
+      <div class="faq-a"><div class="faq-a-inner">
+        我們每一位公關皆經過嚴格面試，配合台中各大 KTV（錢櫃、好樂迪、銀櫃、星樂匯、超級巨星、享溫馨、凱悅等）及精品招待所。飯局妹可依您的商務需求或私人派對進行精準配對，<strong>品質有保障、素質有把關</strong>。
+      </div></div>
+    </div>
+  </div>
+
+  <!-- 二、安全與生活福利 -->
+  <div class="faq-chapter reveal d1">
+    <div class="faq-chapter-title">
+      二、安全與生活福利
+      <span>Safety &amp; Benefits</span>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-q" onclick="toggleFaq(this)">
+        <span class="faq-q-text">Q4：工作到半夜，交通和住宿怎麼辦？</span>
+        <span class="faq-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg></span>
+      </button>
+      <div class="faq-a"><div class="faq-a-inner">
+        這是夏綠蒂的基本標配。我們提供 <strong>24H 專車接送</strong>，由專屬司機負責妳的往返，不論多晚都確保安全到家。外縣市夥伴則貼心安排<strong>精緻安全住宿</strong>，宿舍位於交通便利、保全嚴密的市中心大樓，拎包即住。
+      </div></div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-q" onclick="toggleFaq(this)">
+        <span class="faq-q-text">Q5：工作壓力大，夏綠蒂有提供紓壓或團隊活動嗎？</span>
+        <span class="faq-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg></span>
+      </button>
+      <div class="faq-a"><div class="faq-a-inner">
+        夏綠蒂就像一個大家庭，定期舉辦 <strong>員工聚餐、慶功宴</strong>，讓姐妹們互相交流、放鬆心情。每年更規劃 <strong>海外員工旅遊</strong>，帶大家考察泰國、菲律賓、越南等地的娛樂文化，開拓國際視野。開心的夥伴才有最好的工作表現。
+      </div></div>
+    </div>
+  </div>
+
+  <!-- 三、薪資、轉場與消費 -->
+  <div class="faq-chapter reveal d2">
+    <div class="faq-chapter-title">
+      三、薪資、轉場與消費
+      <span>Pay, Transition &amp; Pricing</span>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-q" onclick="toggleFaq(this)">
+        <span class="faq-q-text">Q6：薪資怎麼領？台中飯局與傳播的價格大約是多少？</span>
+        <span class="faq-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg></span>
+      </button>
+      <div class="faq-a"><div class="faq-a-inner">
+        我們實施 <strong>彈性領薪制度</strong>：傳播與飯局支援當日現領，酒店則依檔薪制度發放，明細清楚透明、絕不扣押拖欠。消費方面，一般女傳、男傳為 <strong>$1,800/節/小時</strong>（一次兩節計費）；台中飯局以「小局」$10,000 或「大局」$12,000 為4節/4小時計費，<strong>絕無隱藏費用</strong>。
+      </div></div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-q" onclick="toggleFaq(this)">
+        <span class="faq-q-text">Q7：已經有經紀人，但想換環境，夏綠蒂能協助轉場嗎？</span>
+        <span class="faq-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg></span>
+      </button>
+      <div class="faq-a"><div class="faq-a-inner">
+        夏綠蒂歡迎所有尋求更好發展的女孩。我們提供 <strong>專業轉場機制與完整教育訓練管道</strong>，協助妳平順汰換不適任的經紀服務，依妳的特質重新規劃路線，讓妳在新環境中找回熱情與收入。
+      </div></div>
+    </div>
+  </div>
+
+</section>
+
+<!-- Contact -->
+<div class="cf" id="cf-main">
+  <div class="cf-title">CONTACT US — 立即諮詢</div>
+  <div class="cf-cards">
+    <div class="cf-card">
+      <svg class="cf-ico" viewBox="-3 -3 30 30" fill="none" stroke="#E5D3B3" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" style="width:42px;height:42px"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.91a16 16 0 0 0 6 6l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.73 16.92z"/></svg>
+      <div class="cf-l"><div class="cf-type">PHONE</div><div class="cf-id">0986-199-030</div></div>
+      <a href="tel:+886986199030" class="cf-cbtn">直接撥打</a>
+    </div>
+    <div class="cf-card">
+      <svg class="cf-ico" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50" fill="#06C755"/><path d="M50 18C32.3 18 18 30.4 18 45.6c0 9.5 5.5 17.9 13.9 23.1-.6 2.1-2.1 7.4-2.4 8.5-.4 1.4.5 1.4 1.1 1 .4-.3 6.8-4.6 9.6-6.4 1.6.2 3.2.3 4.8.3 17.7 0 32-12.4 32-27.5C79 31.5 67.7 18 50 18z" fill="white"/><text x="50" y="53" text-anchor="middle" font-family="Arial Black,Helvetica Neue,sans-serif" font-weight="900" font-size="19" fill="#06C755" letter-spacing="1.5">LINE</text></svg>
+      <div class="cf-l"><div class="cf-type">LINE ID</div><div class="cf-id">@356jqdzz</div></div>
+      <a href="https://line.me/ti/p/~@356jqdzz" target="_blank" class="cf-cbtn green">一鍵加入好友</a>
+    </div>
+    <div class="cf-card">
+      <svg class="cf-ico" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50" fill="#2DC100"/><ellipse cx="41" cy="43" rx="22" ry="17" fill="white"/><circle cx="32" cy="43" r="3.5" fill="#2DC100"/><circle cx="41" cy="43" r="3.5" fill="#2DC100"/><circle cx="50" cy="43" r="3.5" fill="#2DC100"/><ellipse cx="60" cy="60" rx="18" ry="14" fill="white"/><circle cx="52" cy="60" r="3" fill="#2DC100"/><circle cx="60" cy="60" r="3" fill="#2DC100"/><circle cx="68" cy="60" r="3" fill="#2DC100"/></svg>
+      <div class="cf-l"><div class="cf-type">WECHAT ID</div><div class="cf-id">cld_168168</div></div>
+      <button class="cf-cbtn" onclick="copyWC()">一鍵複製 ID</button>
+    </div>
+  </div>
+  <div id="copy-msg-main" class="copy-msg" style="text-align:center;margin-top:.8rem">✓ WeChat ID 已複製</div>
+  <div class="footer-copy">© Charlotte Entertainment Agency｜台中夏綠蒂娛樂經紀<br>正派合法經營 · 15年品牌信賴</div>
+</div>
+
+<!-- Float buttons -->
+<button id="back-top" onclick="scrollBackTop()" title="回到頂部">
+  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#E5D3B3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
+</button>
+
+<div id="float-btns">
+  <a class="fb fb-phone" href="tel:+886986199030" title="直接撥打">
+    <svg viewBox="-3 -3 30 30" fill="none" stroke="#E5D3B3" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" style="width:28px;height:28px">
+      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.91a16 16 0 0 0 6 6l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.73 16.92z"/>
+    </svg>
+  </a>
+  <a class="fb fb-line" href="https://line.me/ti/p/~@356jqdzz" target="_blank" rel="noopener noreferrer" title="LINE 加好友">
+    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" style="width:52px;height:52px">
+      <circle cx="50" cy="50" r="50" fill="#06C755"/>
+      <path d="M50 18C32.3 18 18 30.4 18 45.6c0 9.5 5.5 17.9 13.9 23.1-.6 2.1-2.1 7.4-2.4 8.5-.4 1.4.5 1.4 1.1 1 .4-.3 6.8-4.6 9.6-6.4 1.6.2 3.2.3 4.8.3 17.7 0 32-12.4 32-27.5C79 31.5 67.7 18 50 18z" fill="white"/>
+      <text x="50" y="53" text-anchor="middle" font-family="Arial Black,Helvetica Neue,sans-serif" font-weight="900" font-size="19" fill="#06C755" letter-spacing="1.5">LINE</text>
+    </svg>
+  </a>
+  <button class="fb fb-wechat" onclick="copyFloatWC()" title="複製WeChat ID">
+    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" style="width:52px;height:52px">
+      <circle cx="50" cy="50" r="50" fill="#2DC100"/>
+      <ellipse cx="41" cy="43" rx="22" ry="17" fill="white"/>
+      <circle cx="32" cy="43" r="3.5" fill="#2DC100"/>
+      <circle cx="41" cy="43" r="3.5" fill="#2DC100"/>
+      <circle cx="50" cy="43" r="3.5" fill="#2DC100"/>
+      <ellipse cx="60" cy="60" rx="18" ry="14" fill="white"/>
+      <circle cx="52" cy="60" r="3" fill="#2DC100"/>
+      <circle cx="60" cy="60" r="3" fill="#2DC100"/>
+      <circle cx="68" cy="60" r="3" fill="#2DC100"/>
+    </svg>
+  </button>
+</div>
+<div id="float-toast">✓ ID 已複製</div>
+
+<script>
+function toggleMenu(){
+  document.getElementById('hbg').classList.toggle('open');
+  document.getElementById('mmenu').classList.toggle('open');
+  document.body.style.overflow=document.getElementById('mmenu').classList.contains('open')?'hidden':'';
+}
+function closeMenu(){
+  document.getElementById('hbg').classList.remove('open');
+  document.getElementById('mmenu').classList.remove('open');
+  document.body.style.overflow='';
+}
+window.addEventListener('scroll',()=>{
+  document.getElementById('hdr').classList.toggle('scrolled',window.scrollY>50);
+  const btn=document.getElementById('back-top');
+  if(btn){if(window.scrollY>200)btn.classList.add('show');else btn.classList.remove('show');}
+});
+function initReveal(){
+  const els=document.querySelectorAll('.reveal:not(.vis)');
+  const obs=new IntersectionObserver(entries=>{
+    entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('vis');obs.unobserve(e.target);}});
+  },{threshold:.08});
+  els.forEach(el=>obs.observe(el));
+}
+function scrollBackTop(){
+  window.scrollTo({top:0,left:0,behavior:'smooth'});
+  document.documentElement.scrollTop=0;document.body.scrollTop=0;
+}
+function toggleFaq(btn){
+  const item=btn.closest('.faq-item');
+  const isOpen=item.classList.contains('open');
+  document.querySelectorAll('.faq-item.open').forEach(el=>el.classList.remove('open'));
+  if(!isOpen)item.classList.add('open');
+}
+function copyWC(){
+  navigator.clipboard.writeText('cld_168168').then(()=>{
+    const el=document.getElementById('copy-msg-main');
+    if(el){el.classList.add('show');setTimeout(()=>el.classList.remove('show'),2400);}
+  });
+}
+function copyFloatWC(){
+  navigator.clipboard.writeText('cld_168168').then(()=>{
+    const t=document.getElementById('float-toast');
+    t.style.opacity='1';setTimeout(()=>t.style.opacity='0',2000);
+  });
+}
+// Mark active nav link
+(function(){
+  const page=location.pathname.split('/').pop()||'index.html';
+  document.querySelectorAll('#mmenu a').forEach(a=>{
+    if(a.getAttribute('href')===page)a.classList.add('active');
+  });
+})();
+setTimeout(initReveal,200);
+</script>
+
+</body>
+</html>
