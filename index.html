@@ -41,7 +41,8 @@
   <!-- 字型 -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Noto+Serif+TC:wght@300;400;500&family=Cinzel:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Noto+Serif+TC:wght@300;400;500&family=Cinzel:wght@400;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Noto+Serif+TC:wght@300;400;500&family=Cinzel:wght@400;600&display=swap" rel="stylesheet"></noscript>
   <style>
 *{box-sizing:border-box;margin:0;padding:0}
 :root{
@@ -339,7 +340,7 @@ body{padding-top:0}
 <div id="float-toast">✓ ID 已複製</div>
 
 <!-- 年齡確認彈窗 -->
-<div id="age-gate" style="position:fixed;inset:0;z-index:9999;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,0.92);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);">
+<div id="age-gate" style="position:fixed;inset:0;z-index:9999;display:none;align-items:center;justify-content:center;background:rgba(0,0,0,0.92);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);">
   <div style="text-align:center;padding:2.5rem 2rem;border:1px solid rgba(229,211,179,0.3);max-width:320px;width:90%;background:rgba(10,10,10,0.8);">
     <p style="font-family:'Cinzel',serif;font-size:.55rem;letter-spacing:.5em;color:rgba(229,211,179,0.6);margin-bottom:1.5rem">CHARLOTTE ENTERTAINMENT</p>
     <p style="font-family:'Cormorant Garamond',serif;font-size:1.6rem;font-weight:300;color:#FDFDFD;line-height:1.4;margin-bottom:.6rem">本站內容僅供<br>成年人瀏覽</p>
@@ -352,7 +353,7 @@ body{padding-top:0}
   </div>
 </div>
 <script>
-if(sessionStorage.getItem('ageConfirmed')){document.getElementById('age-gate').style.display='none';}
+(function(){if(!sessionStorage.getItem('ageConfirmed')){document.getElementById('age-gate').style.display='flex';}})();
 function confirmAge(){sessionStorage.setItem('ageConfirmed','1');document.getElementById('age-gate').style.display='none';}
 function denyAge(){window.location.href='https://www.google.com';}
 </script>
